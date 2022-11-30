@@ -290,10 +290,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <a href="https://christyshaji500.github.io/2-week-public/"><img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
                             </a>
                         </div>
                     </div>
@@ -353,33 +350,33 @@
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form name="sentMessage" id="submit-form" novalidate="novalidate" onsubmit="validateform(); reset(); return false;">
+                        <form id="submit-form" action="https://script.google.com/macros/s/AKfycbwYE2Gr14jBB0fGu_u59HhWlLUePZDXE4-7rK_2G_1lJutzMznsuKyjTuNKSZumIIol7w/exec" method="post">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name" onkeyup="validatename()"/>
+                                    <input type="text" class="form-control p-4" name="name" id="name" value="" placeholder="Your Name" onkeyup="validatename()"/>
                                         <span id="nameerror"></span>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email" onkeyup="validateEmail()"/>
+                                    <input type="email" class="form-control p-4" name="email" id="email" value="" placeholder="Your Email" onkeyup="validateEmail()"/>
                                         <span id="emailerror"></span>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" onkeyup="validatesubject()" />
+                                <input type="text" class="form-control p-4" id="subject" name="subject" value="" placeholder="Subject" onkeyup="validatesubject()"
+                                    required="required" data-validation-required-message="Please enter a subject" />
                                     <span id="subjecterror"></span>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    onkeyup="validatemessage()"></textarea>
+                                <textarea class="form-control py-3 px-4" rows="5" name="message" id="message" placeholder="Message" onkeyup="validatemessage()"
+                                   ></textarea>
                                     <span id="messageerror"></span>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton" onclick="return validateform()">Send
+                                <button class="btn btn-outline-primary" type="submit" onkeyup="validateform()">Send
                                     Message</button>
                                     <span id="submiterror"></span>
                             </div>
@@ -396,8 +393,8 @@
     <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
             </div>
             <!-- <div class="d-flex justify-content-center mb-3">
                 <a class="text-white" href="#">Privacy</a>

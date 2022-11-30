@@ -6,7 +6,6 @@ var submiteerror= document.getElementById('submiterror');
 // var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
 function validatename(){
-
     var name=document.getElementById('name').value;
     if(name.len==0){
         nameerror.innerHTML='Name is required';
